@@ -6,6 +6,10 @@ public class Main {
 
     private static String msg = ""Hello aqsi.ru!!!""
     public static void main(String[] args) {
-        System.out.printf(msg);
+        System.out.println("Hello aqsi.ru!");
+    }
+
+    private static String getMessage () {
+        return "Hello ru.aqsi";
     }
 }
